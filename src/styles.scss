@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+$primaryColor: /*#522888*/ #4a148c;
+$secondaryColor: #ffd700;
+$backColor: #bbc2ca;
+$fontColor: #ccd0d6;
+$gutter: 2%;
+$gutterdbl: (2 * $gutter);
+$defaultFont: 'Lato', sans-serif;
+$lightWeight: 300;
+$normalWeight: 400;
+$boldWeight: 700;
+$padding-space: 5em;
+// length of each slide in seconds
+$animation-delay: 6s;
+
+// html, body { height: 100%; }
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

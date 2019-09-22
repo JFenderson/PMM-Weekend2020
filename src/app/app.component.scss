@@ -1,0 +1,11 @@
+@import '../styles.scss';
+
+.toolbar-filler {
+    flex: 1 1 auto
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: column;
+
+}

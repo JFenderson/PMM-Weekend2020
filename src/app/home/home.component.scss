@@ -1,0 +1,22 @@
+@import "../../styles.scss";
+
+.landing {
+  text-align: center;
+  color: $secondaryColor;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), transparent),url(../../assets/img/middle_of_field_M.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  // background-color: rgba(66, 14, 66, 0.699);
+  // background-repeat: no-repeat;
+  // background-size: 100%;
+  // image-rendering: optimizeQuality;
+  background-attachment: fixed;
+  overflow: hidden;
+  // max-height: 100%;
+
+}
+
+.landing-content{
+  padding-top: 7em;
+}

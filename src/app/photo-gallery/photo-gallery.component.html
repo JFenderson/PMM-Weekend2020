@@ -1,0 +1,20 @@
+<div *ngFor='let image of images '>
+  <h3>Results!</h3>
+  <img src="{{image}}"><br>
+</div>
+
+    <!-- <div class="col-md-3 mb-3 sm-2 xs-1 d-flex align-items-stretch" *ngFor="let image of images | async">
+      <div class="card">
+        <div class="view" (click)="maximizeImage(image)" data-toggle="modal" data-target="#product-dtl">
+          <img class="img-fluid" data-src="{{image.imageURL}}" alt="Card image cap" style="cursor: pointer; height: 150px">
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">{{image?.imageName}}</h4>
+          <button type="button" class="btn btn-sm btn-info" (click)="maximizeImage(image)" data-toggle="modal"
+            data-target="#product-dtl" style="float: left;">Maximize</button>
+          <i class="rem-icon fa fa-trash" aria-hidden="true" (click)="onDeleteClick(image)" data-toggle="modal"
+            data-target="#notification-delete-confirm" style="float: right;">
+          </i>
+        </div>
+      </div>
+    </div> -->
